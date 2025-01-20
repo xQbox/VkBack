@@ -90,7 +90,7 @@ int main() {
             for (int j = 0; j < cols; ++j) {
                 std::cin >> maze[i][j];
                 if (maze[i][j] > 9 || maze[i][j] < 0)
-                    throw std::invalid_argument("Значение выходят за диапозон.\n")
+                    throw std::invalid_argument("Значение выходят за диапозон.\n");
             }
         }
         Point start, end;
